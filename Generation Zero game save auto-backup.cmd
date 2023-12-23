@@ -77,16 +77,14 @@
 :: setting is not case-sensitive. The default should work for most systems. Note that %UserProfile% will be
 :: automatically converted to your user directory (e.g. C:\Users\SniperGirl).
 
-::set SourceDir=%UserProfile%\Documents\Avalanche Studios\GenerationZero\Saves
-set SourceDir=%DOCUMENTS%\Avalanche Studios\GenerationZero\Saves
+set SourceDir=%UserProfile%\Documents\Avalanche Studios\GenerationZero\Saves
 
 :: Specify the full path to the directory where the game save backups will be located, omitting quotes and trailing
 :: backslash. This setting is not case-sensitive. The default should work for most systems. The script will attempt to
 :: create this directory, if necessary. IMPORTANT: Choose a directory that will ONLY be used for game save backups
 :: created by this script.
 
-::set BackupDir=%UserProfile%\Documents\Avalanche Studios\GenerationZero\Saves Backups
-set BackupDir=%DOCUMENTS%\Avalanche Studios\GenerationZero\Saves Backups
+set BackupDir=%UserProfile%\Documents\Avalanche Studios\GenerationZero\Saves Backups
 
 :: Specify the name of the game's .EXE file, omitting quotes. This setting is not case-sensitive.
 
